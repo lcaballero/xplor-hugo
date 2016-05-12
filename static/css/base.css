@@ -1,0 +1,61 @@
+/* https://www.google.com/fonts# */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+
+.page-home {
+    background: url(/img/bg-1.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    margin: 0px;
+}
+.bg-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 106%;
+
+    -moz-box-shadow:    inset 0 0 300px #000000;
+    -webkit-box-shadow: inset 0 0 300px #000000;
+    box-shadow:         inset 0 0 300px #000000;
+}
+
+.center-peice {
+    font-family: 'Playfair Display', serif;
+    width: 450px;
+    padding-top: 200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -225px
+}
+.center-peice h1 {
+    color: #eee;
+    font-size: 64px;
+    font-weight: 100;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.center-peice .links {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+}
+.center-peice .links a {
+    font-family: 'Arial', serif;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 18px;
+    font-size: 18px;
+    padding: 8px 26px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.center-peice .links a:hover {
+    transition: background-color 0.7s ease;
+    background-color: #fff;
+    color: #009ACD;
+}

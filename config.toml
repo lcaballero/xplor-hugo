@@ -1,0 +1,5 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "coolkidluke - blog"
+theme = "html5"
+disableRSS = true

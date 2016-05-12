@@ -1,0 +1,16 @@
+<div class="page-center none">
+
+  <div class="icons-ctrl">
+    <div class="assets icons">
+      <ul v-for="icon in icons">
+        <li>
+          <i v-bind:class="['icon-' + icon.properties.name]"></i>
+        </li>
+        <li>
+          <b>icon-[[ icon.properties.name ]]</b>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
